@@ -1,0 +1,29 @@
+== (S) System
+
+NOTE: _the System book refines the Goal one by focusing on more detailed requirements._
+
+include::control.adoc[]
+
+ifeval::[{milestone} >= 2]
+include::S1.adoc[]
+endif::[]
+
+ifeval::[{milestone} >= 2]
+include::S2.adoc[]
+endif::[]
+
+ifeval::[{milestone} >= 2]
+include::S3.adoc[]
+endif::[]
+
+ifeval::[{milestone} >= 2]
+include::S4.adoc[]
+endif::[]
+
+ifeval::[{milestone} >= 3]
+include::S5.adoc[]
+endif::[]
+
+ifeval::[{milestone} >= 2]
+include::S6.adoc[]
+endif::[]

@@ -1,0 +1,11 @@
+[#g1,reftext=G.1]
+=== (G.1) Context and Overall Objectives
+
+ifdef::env-draft[]
+TIP: _High-level view of the project: organizational context and reason for building a system. It explains why the project is needed, recalls the business context, and presents the general business objectives._  <<BM22>>
+endif::[]
+
+The **{project-title}** software system is designed to address the challenges and opportunities within the food service industry by providing an advanced, user-centric platform for streamlined food ordering and delivery. The primary context of this project arises from the increasing demand for convenient and efficient food delivery services. The overall objective of **{project-title}** is to establish a cohesive ecosystem that connects customers, restaurants, and delivery personnel in a seamless manner.
+
+This system seeks to optimize the food ordering and delivery process through various objectives. First, it aims to enhance customer experience by offering a user-friendly interface, intuitive menu navigation, and personalized recommendations. Second, **{project-title}** aims to empower restaurant staff with efficient tools for order management, menu updates, and sales analysis. Third, the system targets improved delivery operations by optimizing delivery routes, real-time tracking, and efficient communication between customers and delivery personnel. Additionally, **{project-title}** aims to cultivate customer loyalty through a well-defined and rewarding loyalty program. Overall, this software system endeavors to modernize and elevate the food ordering and delivery landscape by providing an integrated and efficient solution for all stakeholders involved.
+

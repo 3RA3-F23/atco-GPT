@@ -1,0 +1,26 @@
+[#p2,reftext=P.2]
+=== (P.2) Imposed technical choices
+
+ifdef::env-draft[]
+TIP: _Any a priori choices binding the project to specific tools, hardware, languages or other technical parameters. Not all technical choices in projects derive from a pure technical analysis; some result from company policies. While some project members may dislike non-strictly-technical decisions, they are a fact of project life and must be documented, in particular for the benefit of one of the quality factors for requirements: "requirements must be justified"._  <<BM22>>
+endif::[]
+
+In the *{project-title}* project, several a priori choices have been made that bind the project to specific tools, languages, and technical parameters. These decisions are based on a combination of technical analysis, industry best practices, and company policies to ensure the successful development and deployment of the system while justifying their relevance.
+
+- **Programming Language**: The primary programming language for developing the *{project-title}* system will be Python. Python's versatility, extensive libraries, and community support align with the project's goal to achieve rapid development and maintainability.
+
+- **Framework**: The project will utilize the Django framework for backend development. Django's robustness, security features, and built-in components will expedite development and facilitate the implementation of essential features.
+
+- **Database Management System**: PostgreSQL will be the chosen database management system. Its ACID compliance, scalability, and support for complex queries align with the project's need for reliable data storage and retrieval.
+
+- **User Interface**: The frontend will be developed using React, ensuring dynamic and responsive user interfaces across various devices.
+
+- **Cloud Hosting**: The system will be hosted on Amazon Web Services (AWS) for its scalability, availability, and robust cloud infrastructure.
+
+- **Version Control**: The project team will use Git as the version control system to manage source code, track changes, and facilitate collaboration among team members.
+
+- **API Integration**: Integration with third-party services, such as payment gateways and mapping APIs, will be accomplished using industry-standard RESTful APIs.
+
+- **Security Measures**: The project will adhere to security best practices, including data encryption, secure authentication mechanisms, and regular security audits, to safeguard user information and ensure data privacy.
+
+These a priori choices are essential for maintaining project consistency, facilitating collaboration, and adhering to industry standards. Each choice has been carefully considered to align with project goals and contribute to the overall success of the *{project-title}* system.

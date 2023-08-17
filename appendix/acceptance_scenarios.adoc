@@ -1,0 +1,29 @@
+[appendix]
+== Acceptance Scenarios
+
+=== Scenario: Placing a New Food Order
+
+[source,cucumber]
+----
+Given the customer has selected items from the menu and added them to the cart
+When the customer proceeds to checkout, confirms the order, and provides delivery details
+Then the system should generate an order confirmation with a unique order ID
+And the system should calculate the total cost of the order, including taxes and fees
+And the system should send a confirmation email to the customer with order details and estimated delivery time
+----
+
+
+
+==== Scenario: Real-time Order Tracking
+
+[source,cucumber]
+----
+Given the customer has placed an order and received an order confirmation
+When the customer navigates to the "My Orders" section in the app
+And selects the current order for real-time tracking
+Then the system should display the live location of the delivery personnel on a map
+And the system should show the estimated time of arrival (ETA) for the order at the customer's location
+And the system should update the order status in real-time, reflecting stages such as preparation, out for delivery, and delivered
+And the system should provide notifications to the customer for any status changes or delays in delivery
+----
+

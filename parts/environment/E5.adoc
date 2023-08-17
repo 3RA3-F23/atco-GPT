@@ -1,0 +1,17 @@
+[#e5,reftext=E.5]
+=== (E.5) Effects
+
+ifdef::env-draft[]
+TIP: _Elements and properties of the environment that the system will affect. It defines effects of the system's operations on properties of the environment. Where the previous two categories (<<e3>>, <<e4>>) defined influences of the environment on the system, effects are influences in the reverse direction._  <<BM22>>
+endif::[]
+
+
+- **Restaurant Workload Distribution**: The system's automated order processing and management may lead to more evenly distributed order volumes, reducing peak-hour rushes and optimizing kitchen operations.
+
+- **Customer Ordering Behavior**: The system's user-friendly interface and real-time tracking could potentially influence customer ordering patterns, encouraging more frequent and larger orders.
+
+- **Delivery Personnel Efficiency**: The system's route optimization and real-time tracking can enhance the efficiency of delivery personnel, enabling quicker and more accurate deliveries.
+
+- **Data-Driven Business Decisions**: The system's comprehensive reporting and analytics can impact restaurant decisions, enabling data-driven insights for menu updates, promotions, and resource allocation.
+
+- **Operational Insights**: The system's data collection and analysis can provide valuable operational insights, influencing staffing levels, inventory management, and resource utilization.

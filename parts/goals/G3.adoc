@@ -1,0 +1,14 @@
+[#g3,reftext=G.3]
+=== (G.3) Expected Benefits
+
+ifdef::env-draft[]
+TIP: _New processes, or improvement to existing processes, made possible by the project’s results. It presents the business benefits expected from the successful execution of the project. **This chapter is the core of the Goals book**, describing what the organization expects from the system. It ensures that the project remains focused: if at some stage it gets pushed in different directions, with “creeping featurism” threatening its integrity, a reminder about the original business goals stated in those chapters will help._  <<BM22>>
+endif::[]
+
+
+The implementation of **{project-title}** at The Phoenix restaurant is anticipated to yield a spectrum of tangible and strategic benefits that stem from the streamlined and integrated nature of the new system. The primary benefit is the enhancement of the overall customer experience. The introduction of a user-friendly interface for food ordering, coupled with real-time order tracking and personalized recommendations, aims to elevate customer satisfaction and convenience. This improvement aligns with The Phoenix's commitment to providing exceptional service and fostering strong patron relationships.
+
+Furthermore, the adoption of **{project-title}** is expected to significantly optimize restaurant operations. By automating order processing, updating menus seamlessly, and generating comprehensive sales reports, The Phoenix can unlock increased operational efficiency and data-driven decision-making. This not only minimizes manual effort but also empowers the restaurant to make informed business choices that lead to improved financial performance. Moreover, the establishment of an efficient delivery logistics system is projected to enhance delivery accuracy and speed, contributing to higher customer satisfaction and loyalty. By addressing the current limitations and introducing innovative features, **{project-title}** aims to reinforce The Phoenix's competitive edge in the food service industry while cementing its reputation as a modern, customer-centric establishment.
+
+.Goal Model for {project-title}
+image::models/goals.svg[scale=50%,align="center"]

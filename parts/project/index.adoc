@@ -1,0 +1,31 @@
+== (P) Project
+
+NOTE: _Goals are "needs of the target organization, which the system will address". While the development team is the principal user of the other books, the Goals book addresses a wider audience: essentially, all stakeholders_ <<BM22>>
+
+include::control.adoc[]
+
+ifeval::[{milestone} >= 3]
+include::P1.adoc[]
+endif::[]
+
+ifeval::[{milestone} >= 4]
+include::P2.adoc[]
+endif::[]
+
+ifeval::[{milestone} >= 3]
+include::P3.adoc[]
+endif::[]
+
+
+ifeval::[{milestone} >= 4]
+include::P4.adoc[]
+endif::[]
+
+ifeval::[{milestone} >= 4]
+include::P5.adoc[]
+endif::[]
+
+include::P6.adoc[]
+
+include::P7.adoc[]
+

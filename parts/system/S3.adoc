@@ -1,0 +1,34 @@
+[#s3,reftext=S.3]
+=== (S.3) Interfaces
+
+ifdef::env-draft[]
+TIP: _How the system makes the functionality of <<s2>> available to the rest of the world, particularly user interfaces and program interfaces (APIs). It specifies how that functionality will be made available to the rest of the world, including people (users) and other systems. These are interfaces provided by the system to the outside; the other way around, interfaces from other systems, which the system may use, are specified in <<e2>>._  <<BM22>>
+endif::[]
+
+==== Domain Model
+
+The domain model presented through the class diagram in <<domain_model,Fig. 2>> captures the fundamental entities and their relationships within the "ATCO Eats" food ordering app. Customers can register, login, and place orders for various menu items, which are managed by the MenuItem class. Orders are associated with customers and can include multiple menu items. Payments are processed for completed orders, and a loyalty program offers rewards based on customer spending. The Notification class enables communication with customers. An Administrator can access customer data, update the menu, and generate sales reports. This domain model provides a clear representation of the app's core functionalities and how different entities interact to create a seamless food ordering experience.
+
+[[domain_model]]
+.Class Diagram representing the Domain Model
+image::models/domain_model.svg[align="center"]
+
+
+==== High Level Application Programming Interfaces (APIs)
+
+The interfaces identified in the system include the "Order Management" interface, which empowers customers to seamlessly place and manage orders while facilitating real-time updates on order status and history. The "Delivery Tracking" interface offers customers the ability to track their orders in real-time, view delivery routes on an interactive map, and receive notifications about estimated arrival times and successful deliveries. The "Restaurant Integration" interface ensures accurate synchronization of menu items, prices, and availability between the system and restaurant databases. The "Analytics and Reporting" interface facilitates data collection and analysis, enabling insights into customer preferences and system performance. Lastly, the "User Interface" component provides an intuitive and responsive platform for users to interact with the system's functionalities, enhancing overall usability and customer engagement.
+
+.High level Interfaces for {project-title}
+image::models/components_interface.svg[scale=70%,align="center"]
+
+==== User Interface Mockups
+
+Home Screen:: The home screen of the mobile user interface welcomes users with a clean and intuitive layout. At the top, a prominent search bar allows customers to quickly browse and search for their favorite menu items. Below the search bar, featured promotions and personalized recommendations are displayed, enticing users to explore popular choices. A carousel of vibrant food images further captures attention, showcasing a variety of appetizing dishes. The home screen also prominently highlights the user's current order status and estimated delivery time, ensuring users are kept informed about their ongoing orders. Quick access buttons to view order history, track deliveries, and manage account settings are strategically placed for convenient navigation. Overall, the home screen provides a visually appealing and user-centric gateway to the various functionalities of the app, enhancing the dining experience for customers.
+
+.Mockup for the Home Screen of the Mobile application
+image::mockups/home_screen.png[scale=50%,align="center"]
+
+Ordering Screen:: The ordering items screen within the mobile user interface offers a seamless and efficient way for users to select their desired menu items. A categorized menu list is prominently displayed, allowing users to easily browse through different sections such as appetizers, main courses, beverages, and desserts. Each menu item is accompanied by a high-quality image, detailed description, and price, providing users with comprehensive information to make informed choices. A user-friendly quantity selector and an "Add to Cart" button are conveniently positioned, enabling users to customize their order effortlessly. Users can also apply filters and sorting options to refine their search based on preferences. A dynamic cart summary on the side displays the selected items, quantities, and a running total cost, ensuring users have a clear overview of their selections. Overall, the ordering items screen ensures a delightful and straightforward experience for users to curate their desired dining selections with ease.
+
+.Mockup for the Ordering Screen of the Mobile application
+image::mockups/ordering_screen.png[scale=50%,align="center"]

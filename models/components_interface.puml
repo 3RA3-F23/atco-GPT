@@ -1,0 +1,30 @@
+@startuml
+
+!include ../_style/puml.style
+
+!define ENTITY class
+!define INTERFACE interface
+
+
+INTERFACE IDeliveryTracking {
+  + trackOrder(order: Order): void
+  + updateDeliveryStatus(order: Order, status: String): void
+}
+
+INTERFACE IOrderManagement {
+  + placeOrder(customerId: int, items: List<Item>): Order
+  + updateOrderStatus(order: Order, status: String): void
+}
+
+INTERFACE IRestaurantIntegration {
+  + getMenu(): List<Item>
+  + sendOrder(order: Order): void
+}
+
+INTERFACE IAnalyticsReporting {
+  + generateReport(startDate: Date, endDate: Date): Report
+}
+
+
+
+@enduml

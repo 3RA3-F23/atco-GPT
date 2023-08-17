@@ -1,0 +1,44 @@
+@startuml
+
+interface IAuthentication <<interface>>
+interface IOrderManagement <<interface>>
+interface IMenuManagement <<interface>>
+interface IPaymentProcessing <<interface>>
+interface IRealTimeTracking <<interface>>
+interface ILoyaltyProgram <<interface>>
+interface INotificationSystem <<interface>>
+interface IAdministratorDashboard <<interface>>
+
+[Customer] as customer
+[Restaurant Staff] as restaurantStaff
+[Delivery Personnel] as deliveryPersonnel
+
+customer -- IAuthentication
+customer -- IOrderManagement
+customer -- IRealTimeTracking
+customer -- ILoyaltyProgram
+customer -- INotificationSystem
+
+restaurantStaff -- IAuthentication
+restaurantStaff -- IMenuManagement
+restaurantStaff -- IOrderManagement
+restaurantStaff -- IAdministratorDashboard
+
+deliveryPersonnel -- IAuthentication
+deliveryPersonnel -- IOrderManagement
+deliveryPersonnel -- IRealTimeTracking
+deliveryPersonnel -- INotificationSystem
+
+cloud <<rectangle>> {
+  [ATCO Eats App]
+  [External Payment Gateway]
+  [External Inventory System]
+}
+
+customer - [ATCO Eats App] : Uses
+restaurantStaff - [ATCO Eats App] : Uses
+deliveryPersonnel - [ATCO Eats App] : Uses
+[ATCO Eats App] -- [External Payment Gateway] : Uses
+[ATCO Eats App] -- [External Inventory System] : Uses
+
+@enduml

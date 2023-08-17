@@ -1,0 +1,15 @@
+[discrete]
+=== Control Information
+
+.{project-title} -- Versionning Information -- Environment Book
+[cols="^1,^1,^2,^2,^2,^2"]
+|===
+|Section | Version | Lead | Delivered | Reviewer | Approved 
+
+| **<<e1>>** | 1 | GPT-3.5 | Milestone #1 | |
+| **<<e2>>** | 1 | GPT-3.5 | Milestone #2 | |
+| **<<e3>>** | 1 | GPT-3.5 | Milestone #2 | |
+| **<<e4>>** | 1 | GPT-3.5 | Milestone #2 | |
+| **<<e5>>** | 1 | GPT-3.5 | Milestone #1 | |
+| **<<e6>>** | 1 | GPT-3.5 | Milestone #1 | |
+|===

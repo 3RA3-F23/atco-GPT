@@ -1,0 +1,17 @@
+[#e1,reftext=E.1]
+=== (E.1) Glossary
+
+ifdef::env-draft[]
+TIP: _Clear and precise definitions of all the vocabulary specific to the application domain, including technical terms, words from ordinary language used in a special meaning, and acronyms. It introduces the terminology of the project; not just of the environment in the strict sense, but of all its parts._  <<BM22>>
+endif::[]
+
+
+- **Order Tracking**: A feature of the system that enables customers and restaurant staff to monitor the real-time progress and status of food orders, providing transparency and updates from preparation to delivery.
+
+- **Loyalty Program**: A structured incentive system within the system that rewards customers for repeat orders and engagement, offering personalized promotions, discounts, or other benefits to encourage customer retention.
+
+- **Delivery Logistics**: The coordinated planning and management of delivery operations, including optimizing delivery routes, assigning orders to delivery personnel, and ensuring timely and accurate food delivery.
+
+- **User Interface (UI)**: The graphical interface through which customers and restaurant staff interact with the system, encompassing menus, order placement, customization options, and real-time order tracking.
+
+- **Automated Order Management**: The system's capability to streamline and automate the processing, payment handling, and updating of orders, reducing manual effort and potential errors for efficient restaurant operations.

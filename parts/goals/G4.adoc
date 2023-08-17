@@ -1,0 +1,25 @@
+[#g4,reftext=G.4]
+=== (G.4) Functionality overview
+
+ifdef::env-draft[]
+TIP: _Overview of the functions (behavior) of the system. Principal properties only (details are in the System book). It is a short overview of the functions of the future system, a kind of capsule version of book S, skipping details but enabling readers to get a quick grasp of what the system will do._  <<BM22>>
+endif::[]
+
+**{project-title}** will encompass a range of integral functionalities that collectively form a cohesive ecosystem catering to the needs of customers, restaurant staff, and delivery personnel. Key functionalities include:
+
+- **User-friendly Ordering Interface:** The system will provide an intuitive interface for customers to browse menus, customize orders, and seamlessly place food orders.
+- **Automated Order Management:** Restaurant staff will efficiently manage incoming orders, process payments, and update menus in real-time.
+- **Delivery Logistics Optimization:** The system will optimize delivery routes, enable real-time tracking, and enhance communication between customers and delivery personnel.
+- **Loyalty Program Management:** A comprehensive loyalty program will reward customers for repeat orders, offering incentives and personalized promotions.
+- **Comprehensive Reporting:** The system will generate detailed sales reports, aiding restaurant administrators in data-driven decision-making.
+
+These functionalities represent the core behavior of **{project-title}**, serving as a brief glimpse into the wide spectrum of capabilities that the system will offer. Detailed information about each functionality is available in the accompanying System book.
+
+
+The two most important functionalities for **{project-title}** appear to be:
+
+- **User-friendly Ordering Interface**: This functionality holds primary importance as it directly impacts customer engagement and satisfaction. A user-friendly interface ensures that customers can seamlessly navigate menus, customize orders, and effortlessly place food orders. It serves as the initial point of interaction between customers and the system, significantly influencing their overall experience.
+
+- **Automated Order Management**: This functionality is crucial for efficient restaurant operations. Automating order processing, payment handling, and real-time menu updates streamlines the restaurant's internal processes. It enhances accuracy, reduces manual effort, and contributes to overall operational efficiency, ultimately leading to timely and error-free order fulfillment.
+
+These two functionalities serve as foundational pillars for the success of **{project-title}**, ensuring a positive customer experience and optimized restaurant operations.

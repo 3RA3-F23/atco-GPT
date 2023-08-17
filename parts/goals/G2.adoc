@@ -1,0 +1,16 @@
+[#g2,reftext=G.2]
+=== (G.2) Current situation
+
+ifdef::env-draft[]
+TIP: _Current state of processes to be addressed by the project and the resulting system. It describes the current situation, upon which the system is expected to improve_  <<BM22>>
+endif::[]
+
+Within the operations of The Phoenix restaurant, the current process of food ordering and delivery involves manual and disconnected procedures. Customers interact with various platforms to place orders, while the restaurant manages these orders independently, and delivery operations lack real-time tracking capabilities. The existing loyalty program is rudimentary, and administrative tasks are time-consuming. This fragmented approach leads to operational inefficiencies, delays, and a suboptimal customer experience for patrons of The Phoenix. Recognizing these challenges, **{project-title}** aims to intervene by streamlining and optimizing these processes for The Phoenix. The envisioned system seeks to centralize and automate order placement, enhance communication between customers and the restaurant, optimize delivery logistics, and establish a comprehensive loyalty program, thereby elevating the current state and transforming it into a cohesive and efficient ecosystem tailored for The Phoenix's operations.
+
+The transformation aims to replace manual and disjointed processes with an integrated and automated solution specifically tailored for The Phoenix. The objective is to provide The Phoenix's customers with a streamlined and user-friendly ordering experience, complete with real-time tracking and personalized incentives. For The Phoenix's management, the system will automate order management, menu updates, and sales reporting, leading to increased operational efficiency. Delivery personnel associated with The Phoenix will benefit from optimized routes and improved communication tools. By addressing the specific challenges faced by The Phoenix and revamping its current operations, **{project-title}** seeks to establish a new standard for food ordering and delivery that enhances accuracy, convenience, and overall satisfaction for The Phoenix's patrons and stakeholders.
+
+
+
+
+
+

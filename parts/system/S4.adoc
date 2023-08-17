@@ -1,0 +1,107 @@
+[#s4,reftext=S.4]
+=== (S.4) Detailed usage scenarios
+
+ifdef::env-draft[]
+TIP: _Examples of interaction between the environment (or human users) and the system, expressed as user stories. Such scenarios are not by themselves a substitute for precise descriptions of functionality (<<s3>>), but provide an important complement by specifying cases that these behavior descriptions must support; they also serve as a basis for developing test cases. The scenarios most relevant for stakeholders are given in chapter <<g5>> in the Goals book, at a general level, as use cases; in contrast, <<s4>> can refer to system components and functionality (from other chapters of the System book) as well as special and erroneous cases, and introduce more specific scenarios._  <<BM22>>
+endif::[]
+
+==== Overview
+
+The following list presents a set of key scenarios that illustrate the core interactions and functionalities of the *{project-title}* app. These scenarios provide a comprehensive overview of how users, delivery personnel, and administrators will engage with the system to achieve their respective goals and ensure seamless order management, delivery tracking, and restaurant integration.
+
+- **Placing a New Food Order**: A user logs in, browses the menu, adds items to the cart, customizes preferences, selects delivery options, reviews the order, and confirms the purchase.
+- **Real-time Order Tracking**: A user opens the app, selects an ongoing order, and views live updates on the delivery person's location and estimated arrival time.
+- **Managing Restaurant Menu**: An admin logs in, accesses the backend, and adds, edits, or removes menu items, updating their descriptions, prices, and availability.
+- **Handling Delivery Delays**: A delivery person encounters unexpected traffic, notifies the system, and provides revised estimated delivery time to both the restaurant and the customer.
+- **User Profile Management**: A user creates an account, logs in, updates personal information, adds payment methods, and manages delivery addresses.
+- **Inventory Management**: The system monitors ingredient levels for a restaurant, alerts staff when supplies are low, and temporarily removes out-of-stock items from the menu.
+- **Customer Support Interaction**: A user contacts customer support through the app, reports an issue with an order, and receives timely assistance and resolution.
+- **Promotional Campaign**: The restaurant initiates a special offer, such as a discount code, and users apply the code during checkout to receive the specified benefit.
+- **Analytics and Reporting**: An admin accesses the system's analytics dashboard to view key performance indicators, sales trends, and customer feedback.
+- **Integration with Payment Gateway**: A user proceeds to checkout, enters payment details, and the system securely processes the payment through an external payment gateway.
+
+The decision to focus on the "Placing a New Food Order" and "Real-time Order Tracking" scenarios is driven by their essential role in meeting core user needs. "Placing a New Food Order" directly aligns with the app's primary objective of enabling convenient and efficient order placement, while "Real-time Order Tracking" addresses the critical user expectation for real-time visibility into their delivery progress. By prioritizing these scenarios, we aim to establish a solid foundation for user satisfaction and effective order management within the *{project-title}* app.
+
+==== Placing a New Food Order
+
+- Scenario ID: SC001
+- Scenario Name: Placing a New Food Order
+- Scenario Description: This scenario describes the process of a registered user placing a new food order through the {project-title} mobile app, involving interactions with various stakeholders.
+
+- Preconditions:
+  * User (Stakeholder: Customer) is registered and logged into the {project-title} app.
+  * User has launched the app and is on the main menu screen.
+  * User has an active internet connection.
+
+- Main Scenario:
+  1. User navigates to the "Menu" section of the app.
+System displays a list of available food items categorized by type (e.g., appetizers, main courses, desserts).
+  2. User selects desired food items by tapping on their respective icons.
+  3. System adds selected items to the user's virtual shopping cart.
+  4. User proceeds to the "Cart" section to review the selected items.
+  5. System displays the list of items in the cart along with their details, such as name, quantity, and total cost.
+  6. User has the option to customize preferences for each item, such as specifying ingredients or cooking preferences.
+  7. User confirms the order and proceeds to the checkout process.
+  8. System prompts the user to provide delivery details, including address and preferred delivery time.
+  9. User provides delivery details and proceeds to the payment section.
+  10. System displays available payment methods (e.g., credit card, digital wallet).
+  11. User selects a payment method and enters payment details.
+  12. System verifies the payment information and confirms the order.
+  13. User receives an order confirmation notification with an estimated delivery time.
+
+- Postconditions:
+  * User's order is recorded and processed by the system.
+  * User receives an order confirmation email.
+  * User's virtual shopping cart is cleared.
+  * System updates the restaurant's order management system with the new order.
+
+- Alternative Scenarios:
+
+  1. If the user loses internet connectivity before confirming the order, the system displays an error message and prompts the user to reconnect. The user is given the option to retry the connection or save the order as a draft for later submission.
+  2. In case the user attempts to place an order during peak hours when the restaurant is exceptionally busy, the system detects high demand and notifies the user about potential delays in delivery. The user can choose to proceed with the order or reschedule it for a more convenient time.
+  3. If the selected items are temporarily unavailable due to supply shortages, the system displays a notification to the user at the cart stage. The user can decide whether to proceed with the remaining items or revise the order based on the available options.
+  4. In the event of an unexpected payment processing error, such as a declined credit card transaction, the system provides the user with alternative payment methods and troubleshooting steps. The user can update the payment details or switch to a different payment method to complete the order.
+  5. If the user enters an incorrect delivery address, the system prompts the user to review and correct the address before confirming the order. This ensures that accurate delivery information is provided to the delivery personnel.
+
+- Exceptions:
+
+  1. If the selected items are temporarily unavailable due to supply shortages, the system displays a notification to the user at the cart stage. The user can decide whether to proceed with the remaining items or revise the order based on the available options.
+  2. If the user enters an incorrect delivery address, the system prompts the user to review and correct the address before confirming the order. This ensures that accurate delivery information is provided to the delivery personnel.
+  3. In cases where the user's selected payment method does not support the required funds or is invalid, the system provides clear instructions to the user for resolving the issue. The user can update the payment method or choose an alternative option.
+  4. If the user attempts to modify or cancel an order after it has been confirmed, the system enforces a time limit for order modifications. After the time limit expires, the user must contact customer support for any further changes.
+  5. Should the user encounter an unexpected app crash or technical issue during the order placement process, the system automatically saves the order progress as a draft. Upon relaunching the app, the user is prompted to resume the order from where they left off.
+
+
+==== Real-time Order Tracking
+
+
+- Stakeholders: Customer, Delivery Personnel, Restaurant Management
+- Primary Actor: Customer
+- Scope: {project-title} system
+- Preconditions: The customer has successfully placed an order through the {project-title} app.
+- Postconditions: The customer receives real-time updates on the status and location of their order.
+
+- Main Scenario:
+
+1. The customer opens the {project-title} app and navigates to the "My Orders" section.
+2. The system displays a list of the customer's recent orders, including their current order.
+3. The customer selects the current order and is presented with the real-time order tracking interface.
+4. The system retrieves the order status, estimated delivery time, and the live location of the delivery personnel.
+5. The customer can view the delivery personnel's current location on a map, along with a visual representation of their route towards the customer's address.
+6. The system updates the order status and delivery personnel's location in real-time, providing accurate and timely information.
+
+- Alternative Scenarios:
+1. If the customer's order is delayed due to unexpected traffic or weather conditions, the system provides an estimated revised delivery time and notifies the customer about the delay.
+2. In cases where the delivery personnel encounters difficulties, such as difficulty finding parking, the system prompts the delivery personnel to contact the customer for further instructions.
+3. If the customer has multiple orders scheduled for delivery, the system allows the customer to switch between orders and track each order's progress individually.
+4. If the delivery personnel is running ahead of schedule, the system notifies the customer about the early arrival and confirms if the customer is available to receive the order.
+5. In scenarios where the delivery personnel encounters an obstacle that prevents them from reaching the customer's location, the system provides alternative routes and prompts the delivery personnel to communicate with the customer.
+
+- Exceptions:
+
+1. If the customer's device loses internet connectivity, the system temporarily suspends real-time updates and displays a message indicating the loss of connection.
+2. In cases where the delivery personnel's device experiences technical issues, the system notifies the customer about the interruption in real-time tracking.
+3. If the customer's location is not accurately updated, the system prompts the customer to verify their address and provides instructions for correcting it.
+4. If the delivery personnel accidentally marks the order as delivered prematurely, the system detects the error and alerts the delivery personnel to rectify the status.
+5. If the delivery personnel's location is not updated due to GPS signal loss or device malfunction, the system displays a message informing the customer about the temporary disruption and assures them that updates will resume once the issue is resolved.
+

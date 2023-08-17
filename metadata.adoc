@@ -1,0 +1,7 @@
+Dr. Sébastien Mosser <mossers@mcmaster.ca>; ChatGPT
+:project-title: ATCO Eats
+:course-number: SE/CS 3RA3
+:course-term: CAS -- McMaster
+:revnumber: 1
+:milestone: 4
+:env-draft:

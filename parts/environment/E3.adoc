@@ -1,0 +1,16 @@
+[#e3,reftext=E.3]
+=== (E.3) Constraints
+
+ifdef::env-draft[]
+TIP: _Obligations and limits imposed on the project and system by the environment. This chapter defines non-negotiable restrictions coming from the environment (business rules, physical laws, engineering decisions), which the development will have to take into account._  <<BM22>>
+endif::[]
+
+- **Data Privacy Regulations**: The system must adhere to relevant data protection and privacy regulations, ensuring secure handling of customer information and payment data.
+
+- **Compatibility**: The system should be compatible with a range of devices and operating systems to accommodate a diverse user base.
+
+- **Real-time Performance**: The system must provide real-time updates for order tracking and status to ensure accurate and timely information for customers and staff.
+
+- **Reliability**: The system should maintain high availability and reliability to prevent disruptions in food ordering and delivery operations.
+
+- **Scalability**: The system must be designed to handle potential spikes in user activity, especially during peak hours, without significant degradation in performance.

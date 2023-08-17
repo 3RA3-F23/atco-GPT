@@ -1,0 +1,18 @@
+[#e4,reftext=E.4]
+=== (E.4) Assumptions
+
+ifdef::env-draft[]
+TIP: _Properties of the environment that may be assumed, with the goal of facilitating the project and simplifying the system. It defines properties that are not imposed by the environment (like those in <<e3>>) but assumed to hold, as an explicit decision meant to facilitate the system's construction._  <<BM22>>
+endif::[]
+
+
+- **Stable Internet Connectivity**: It is assumed that users will have stable and reliable internet connectivity to access and interact with the system.
+
+- **Consistent Menu Availability**: The assumption is made that the restaurant's menu items and availability will be consistently updated and synchronized with the system.
+
+- **Availability of Delivery Personnel**: It is assumed that there will be a sufficient number of available delivery personnel to handle delivery requests during operational hours.
+
+- **Customer Account Accuracy**: Customers are assumed to provide accurate and up-to-date account information, including contact details and delivery addresses.
+
+- **Smooth Payment Processing**: The assumption is made that third-party payment gateways will provide seamless and secure payment processing, without significant technical disruptions.
+

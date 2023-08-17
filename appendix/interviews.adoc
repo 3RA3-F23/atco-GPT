@@ -1,0 +1,32 @@
+[appendix]
+== Interviews Analysis
+
+=== Customer
+
+- Question: "What are the key factors that influence your decision to place an online food order?"
+
+This question helps uncover the motivations and preferences of the customers, guiding the system's design to cater to their needs and enhance their ordering experience.
+
+=== Restaurant Staff
+
+- Question: "How do you currently manage incoming orders and coordinate with delivery personnel?"
+
+Understanding the existing order management process provides insights into pain points and inefficiencies, allowing the system to streamline operations and improve coordination.
+
+=== Delivery Personnel
+
+- Question: "What challenges do you encounter while delivering orders, and how do you handle them?"
+
+This question uncovers real-world challenges faced by delivery personnel, helping the system address their needs, optimize routes, and provide tools for smoother delivery operations.
+
+=== System Administrator
+
+- Question: "What scalability and performance requirements do you anticipate for the system?"
+
+Gathering insights on anticipated usage patterns and scalability needs helps ensure the system is designed to handle future growth and maintain optimal performance.
+
+=== Management Team:
+
+- Question: "What are the key business goals and objectives you aim to achieve through the implementation of this system?"
+
+Understanding the management's strategic objectives provides a clear direction for system development and aligns technical decisions with overarching business goals.

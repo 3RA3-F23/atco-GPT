@@ -1,0 +1,16 @@
+[#p1,reftext=P.1]
+=== (P.1) Roles and personnel
+
+ifdef::env-draft[]
+TIP: _Main responsibilities in the project; required project staff and their needed qualifications. It defines the roles (as a human responsibility) involved in the project._  <<BM22>>
+endif::[]
+
+- **Project Manager**: Responsible for overall project coordination, planning, and execution. Requires strong leadership, communication skills, and project management experience.
+
+- **Business Analyst**: Gathers and documents requirements from stakeholders. Needs analytical skills, domain knowledge in the food industry, and proficiency in requirements elicitation techniques.
+
+- **Software Architect**: Designs the system's structure for scalability, reliability, and performance. Requires expertise in software architecture and relevant technology stacks.
+
+- **Software Developer**: Implements and codes system components. Should have programming experience, knowledge of software development best practices, and collaboration skills.
+
+- **Quality Assurance Engineer**: Conducts testing to ensure system functionality, performance, and security. Needs strong testing skills and an eye for detail to identify defects.

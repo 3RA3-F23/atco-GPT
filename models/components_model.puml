@@ -1,0 +1,30 @@
+@startuml
+
+!include ../_style/puml.style
+
+component [OrderManagement] 
+interface IDeliveryTracking 
+interface IOrderManagement
+ 
+IOrderManagement - OrderManagement
+OrderManagement .> IDeliveryTracking: <<uses>>
+ 
+component [DeliveryTracking] 
+IDeliveryTracking -- DeliveryTracking
+
+component [RestaurantIntegration]
+interface IRestaurantIntegration
+RestaurantIntegration .> IOrderManagement: <<uses>>
+IRestaurantIntegration -- RestaurantIntegration: <<uses>>
+
+component [AnalyticsAndReporting]
+interface IAnalyticsReporting
+IOrderManagement <.. AnalyticsAndReporting : <<uses>>
+IAnalyticsReporting - AnalyticsAndReporting
+
+component [UserInterface]
+UserInterface .> IOrderManagement
+UserInterface .> IDeliveryTracking
+UserInterface ..> IRestaurantIntegration
+
+@enduml

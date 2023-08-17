@@ -1,0 +1,22 @@
+[#p7,reftext=P.7]
+=== (P.7) Requirements process and report
+
+ifdef::env-draft[]
+TIP: _Initially, description of what the requirements process will be; later, report on its steps. It starts out as a plan for conducting the requirements elicitation process, but is meant to be updated as part of that process so that it includes the key lessons of elicitation._  <<BM22>>
+endif::[]
+
+- **End Consumers (Customers)**: Conduct user interviews and surveys to gather insights about their preferences, expectations, and pain points when using the app. Use prototype walkthroughs and usability testing sessions to observe their interactions with the app and gather feedback on its functionality and user experience.
+
+- **Restaurant Owners and Managers**: Arrange focused group discussions or workshops with restaurant owners and managers to understand their operational needs and challenges. Collect detailed process flows and workflow diagrams to capture their requirements for order management, menu updates, and integration with their existing systems.
+
+- **Delivery Personnel**: Conduct one-on-one interviews or focus groups with delivery personnel to comprehend their daily tasks, challenges, and expectations. Use role-playing exercises or scenario-based discussions to gather insights into the required features for efficient order handling and real-time tracking.
+
+- **Corporate Consumers**: Schedule meetings with corporate representatives to discuss their bulk order requirements, customization needs, and reporting preferences. Use mockups or prototypes to showcase how the app can cater to their corporate orders and provide them with value-added services.
+
+- **Frequent Diners and Loyalty Members**: Engage in online surveys or feedback forms specifically targeting frequent diners and loyalty members. Use loyalty program workshops to gather insights on their expectations for rewards, discounts, and personalized experiences within the app.
+
+- **Restaurant Management Team**: Organize workshops or brainstorming sessions with the restaurant management team to capture their operational requirements, such as menu management, order processing, and integration with the kitchen. Create process diagrams and storyboards to visualize their needs.
+
+- **Delivery Management Team**: Arrange meetings with the delivery management team to understand their dispatching, routing, and coordination needs. Use process mapping and role-playing exercises to uncover requirements for efficient order allocation and real-time tracking.
+
+- **System Administrators**: Conduct interviews with system administrators to gather insights into their technical requirements, such as server configuration, security measures, and integration with existing IT infrastructure. Use technical documentation reviews to ensure compatibility and compliance.

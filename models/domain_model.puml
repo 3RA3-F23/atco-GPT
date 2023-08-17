@@ -1,0 +1,88 @@
+@startuml
+
+!include ../_style/puml.style
+ 
+class Customer {
+  - id: int
+  - name: string
+  - email: string
+  - password: string
+  - loyaltyPoints: int
+  - loyaltyTier: string
+  + register(): void
+  + login(): void
+  + placeOrder(): void
+  + updateProfile(): void
+  + viewOrderStatus(): void
+  + viewLoyaltyPoints(): void
+}
+
+class MenuItem {
+  - id: int
+  - name: string
+  - description: string
+  - price: decimal
+  - category: string
+  - isActive: bool
+}
+
+class Order {
+  - id: int
+  - orderDate: date
+  - status: string
+  - totalAmount: decimal
+  - deliveryAddress: string
+  + addOrderItem(): void
+  + updateStatus(): void
+  + calculateTotalAmount(): decimal
+}
+
+class Payment {
+  - id: int
+  - amount: decimal
+  - paymentStatus: string
+  - paymentDate: date
+  - paymentMethod: string
+  + processPayment(): void
+  + refundPayment(): void
+}
+
+class LoyaltyProgram {
+  - id: int
+  - rewardPointsRatio: int
+  - loyaltyTiers: List<string>
+  - rewards: Map<string, string>
+  + calculateRewardPoints(): int
+  + redeemReward(): void
+}
+
+class Notification {
+  - id: int
+  - content: string
+  - recipient: string
+  - notificationType: string
+  + sendPushNotification(): void
+  + sendInAppNotification(): void
+}
+
+class Administrator {
+  - id: int
+  - name: string
+  - role: string
+  - email: string
+  - password: string
+  + login(): void
+  + updateMenu(): void
+  + generateSalesReport(): void
+  + accessCustomerData(): void
+}
+
+Customer --> "*" Order
+Customer --> LoyaltyProgram
+MenuItem --> "*" Order
+Order -> "*" Payment
+Payment -> Order
+Notification -> Customer
+Administrator --> "*" Order
+
+@enduml

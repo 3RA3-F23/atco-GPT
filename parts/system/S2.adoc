@@ -1,0 +1,49 @@
+[#s2,reftext=S.2]
+=== (S.2) Functionality
+
+ifdef::env-draft[]
+TIP: _**This is the bulk of the System book, describing elements of functionality (behaviors)**. This chapter corresponds to the traditional view of requirements as defining "**what the system does**”. It is organized as one section, S.2.n, for each of the components identified in <<s1>>, describing the corresponding behaviors (functional and non-functional properties)._  <<BM22>>
+endif::[]
+
+Among the five components that were identified, we are going to focus our efforts on two main components: "Order Management" and "Delivery Tracking". The decision to focus on these components as the main components for **{project-title}** is based on their critical roles in delivering a seamless and efficient user experience, as well as their direct impact on the overall success of the system. Below is a more extensive justification for this choice.
+
+The "Order Management" component is pivotal for seamless order processing, offering customers a user-friendly platform to place, modify, and track orders. It ensures accurate inventory management, timely notifications, and effective order history management. The "Delivery Tracking" component enhances customer experience by providing real-time location updates, estimated arrival times, and driver information. It enables customers to interactively monitor their orders, fostering transparency and trust in the delivery process. Both components collectively streamline the end-to-end order journey, from placement to successful delivery, ensuring efficiency, reliability, and customer satisfaction.
+
+
+==== Order Management
+
+Functional Requirements::
+  - The system must allow customers to place new orders by selecting items from the menu, specifying quantities, and providing delivery details. (Order Placement)
+  - The system shall process incoming orders by verifying item availability, calculating the total cost, and assigning a unique order ID. (Order Processing)
+  - The system shall provide real-time order status updates to customers, including confirmation of order placement, preparation, out for delivery, and delivered. (Order Status Tracking)  
+  - Customers could modify orders (e.g., add/remove items) before the order is processed, with automatic updates to the order total and status. (Order Modification)
+  - The system shall maintain a history of past orders for each customer, allowing them to review previous orders, details, and statuses. (Order History)
+  - Customers must receive notifications via email or SMS at key order milestones, such as order confirmation, estimated delivery time, and successful delivery. (Timely Notifications)
+  - Customers should be able to cancel orders within a specific time frame before the scheduled delivery time, with automatic refunds and updates to inventory. (Order Cancellation)
+  - The system shall seamlessly integrate with the "Restaurant Integration" component to ensure accurate menu items, pricing, and availability for customers' orders. (Integration with Restaurant)
+
+Non-functional Requirements::
+  - Performance: The system shall process and confirm new orders within 5 seconds from the time of submission.
+  - Scalability: The system must handle a minimum of 1000 concurrent order requests without degradation in performance.
+  - Reliability: The system should have a minimum uptime of 99.9% to ensure consistent order placement and tracking.
+  - Security: Customer order and payment information must be encrypted during transmission and securely stored in compliance with industry standards (e.g., PCI DSS).
+  - Usability: The user interface should be intuitive and responsive, allowing customers to place orders with minimal training.
+
+==== Delivery Tracking Component
+
+Functional Requirements::
+  - The system shall provide real-time tracking of order delivery, displaying the current location and estimated arrival time to customers. (Real-time Tracking)
+  - The system must update the order status and delivery progress at regular intervals, ensuring accurate and timely information for customers. (Status Updates)
+  - Customers shall be able to view the delivery route and driver's location on an interactive map. (Interactive Map)
+  - Once the order is delivered, the system shall send a notification to the customer and mark the order as successfully delivered. (Delivery Confirmation)
+  - The system should calculate and display an estimated arrival time for the order based on real-time traffic and distance. (Estimated Arrival Time)
+  - Customers shall have access to driver details, including name and contact information, for effective communication. (Driver Information)
+  - The delivery tracking interface must be accessible across various platforms, including web browsers and mobile apps. (Multi-Platform Access)
+  - Customers could customize their notification preferences, choosing between email, SMS, or in-app notifications for order tracking updates. (Customizable Notifications)
+
+Non-functional requirements::
+  - Performance: The system shall provide real-time tracking updates with a latency of no more than 10 seconds.
+  - Scalability: The system must accommodate a growing number of simultaneous order tracking requests without compromising tracking accuracy.
+  - Reliability: The delivery tracking information should be available to customers without interruptions, with a minimum uptime of 99.5%.
+  - Security: Customer location data shall be encrypted during transmission and stored securely to ensure privacy.
+  - Usability: The delivery tracking interface must be user-friendly and accessible, allowing customers to easily track their orders on various devices.

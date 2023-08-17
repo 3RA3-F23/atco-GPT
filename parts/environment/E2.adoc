@@ -1,0 +1,16 @@
+[#e2,reftext=E.2]
+=== (E.2) Components
+
+ifdef::env-draft[]
+TIP: _List of elements of the environment that may affect or be affected by the system and project. It includes other systems to which the system must be interfaced. These components may include existing systems, particularly software systems, with which the system will interact — by using their APIs (program interfaces), or by providing APIs to them, or both. These are interfaces provided to the system from the outside world. They are distinct from both: interfaces provided by the system to the outside world (<<s3>>); and technology elements that the system's development will require (<<p5>>)._  <<BM22>>
+endif::[]
+
+- *Google Maps API*: The system may utilize the Google Maps API to provide accurate location-based services, including address verification, route optimization, and real-time delivery tracking.
+
+- *Payment Gateway Providers (e.g., PayPal, Stripe)*: Integration with popular payment gateways is essential for secure and seamless online payment processing, allowing customers to pay for orders using various methods.
+
+- *Customer Relationship Management (CRM) System*: The system could interface with a CRM platform to manage customer data, preferences, and communication, enhancing personalized experiences and loyalty programs.
+
+- *Restaurant Point of Sale (POS) System*: Integration with the POS system used by restaurants allows for smooth order transmission, inventory management, and synchronization of menu items and prices.
+
+- *Delivery Fleet Management Software*: Connecting with a delivery fleet management system can optimize route planning, dispatching, and coordination of delivery personnel, ensuring efficient order fulfillment.

@@ -1,0 +1,16 @@
+[discrete]
+=== Control Information
+
+.{project-title} -- Versionning Information -- Goal Book
+[cols="^1,^1,^2,^2,^2,^2"]
+|===
+|Section | Version | Lead | Delivered on| Reviewer | Approved on
+
+| **<<g1>>** | 1 | GPT-3.5 | M1 | | 
+| **<<g2>>** | 1 | GPT-3.5 | M1 | |
+| **<<g3>>** | 1 | GPT-3.5 | M1 | |
+| **<<g4>>** | 1 | GPT-3.5 | M1 | |
+| **<<g5>>** | 1 | GPT-3.5 | M2 | |
+| **<<g6>>** | 1 | GPT-3.5 | M1 | |
+| **<<g7>>** | 1 | GPT-3.5 | M1 | |
+|===

@@ -1,0 +1,23 @@
+@startuml
+
+!include ../_style/puml.style
+  
+left to right direction
+actor Customer as C
+actor RestaurantStaff as RS
+actor DeliveryPersonnel as DP
+
+rectangle "ATCO Eats" {
+  C --> (Place Order)
+  C --> (Track Order)
+  RS --> (Manage Orders)
+  RS --> (Update Menu)
+  RS --> (Generate Reports)
+  DP --> (Delivery Operations)
+  
+  (Place Order) --> (Customize Order)
+  (Place Order) --> (Apply Promotions)
+  (Manage Orders) --> (Process Payment)
+}
+@enduml
+  

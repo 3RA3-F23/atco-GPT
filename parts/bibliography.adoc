@@ -1,0 +1,4 @@
+[bibliography]
+= References
+
+* [[[BM22,1]]] Bertrand Meyer. _Handbook of Requirements and Business Analysis_. Springer. 2022.

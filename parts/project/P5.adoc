@@ -1,0 +1,24 @@
+[#p5,reftext=P.5]
+=== (P.5) Required technology elements
+
+ifdef::env-draft[]
+TIP: _External systems, hardware and software, expected to be necessary for building the system. It lists external technology elements, such as program libraries and hardware devices, that the project is expected to require. Although the actual use of such products belongs to design and implementation rather than requirements, it is part of the requirements task to identify elements whose availability is critical to the success of the project — an important element of risk analysis (<<p6>>)._  <<BM22>>
+endif::[]
+
+The successful development and deployment of the ATCO Eats system will necessitate the utilization of various external technology elements. These elements are pivotal for ensuring the system's functionality, performance, and integration with external systems. The identified required technology elements include:
+
+1. Database Management System (DBMS): A reliable and efficient DBMS, such as MySQL or PostgreSQL, is essential for storing and managing user accounts, menu information, orders, and transaction records.
+
+2. Geolocation Services: Integration with geolocation services like Google Maps API will enable accurate tracking of orders, restaurant locations, and delivery routes.
+
+3. Payment Gateway: A secure and widely recognized payment gateway, such as PayPal or Stripe, will facilitate seamless and safe online transactions.
+
+4. Cloud Infrastructure: Utilization of cloud platforms such as AWS or Azure for hosting the system components, ensuring scalability, reliability, and easy management.
+
+5. Push Notification Service: Integration with a push notification service like Firebase Cloud Messaging (FCM) to enable real-time order updates and notifications for users.
+
+6. Restaurant APIs: Integration with third-party restaurant APIs to access menu details, availability, and real-time updates.
+
+7. Mobile App Framework: Adoption of a suitable mobile app framework like React Native or Flutter for building a consistent and user-friendly mobile application.
+
+8. Web Development Framework: Utilization of a web development framework such as React or Angular for creating an intuitive and responsive web interface.

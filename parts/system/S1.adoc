@@ -1,0 +1,19 @@
+[#s1,reftext=S.1]
+=== (S.1) Components
+
+ifdef::env-draft[]
+TIP: _Overall structure expressed by the list of major software and, if applicable, hardware parts._  <<BM22>>
+endif::[]
+
+- **User Interface Component**: This component encompasses the customer-facing application and interfaces, providing features like menu browsing, order customization, and payment processing.
+
+- **Order Management Component**: Responsible for processing and managing incoming orders, this component communicates with the User Interface and Restaurant Dashboard, ensuring accurate order transmission and updates.
+
+- **Delivery Tracking Component**: This component handles real-time order tracking and delivery status updates, enabling customers and delivery personnel to monitor order progress.
+
+- **Restaurant Integration Component**: Facilitates communication between the system and restaurant operations, connecting the User Interface with the Restaurant Dashboard and ensuring seamless order processing.
+
+- **Analytics and Reporting Component**: Responsible for data collection, analysis, and generation of reports, this component provides valuable insights to restaurant management, aiding decision-making and performance evaluation.
+
+.Component Model for {project-title}
+image::models/components_model.svg[scale=70%,align="center"]

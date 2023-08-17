@@ -1,0 +1,65 @@
+[#g5,reftext=G.5]
+=== (G.5) High-level usage scenarios
+
+ifdef::env-draft[]
+TIP: _Fundamental usage paths through the system. It presents the main scenarios (use cases) that the system should cover. The scenarios chosen for appearing here, in the Goals book, should only be the **main usage patterns**, without details such as special and erroneous cases; they should be stated in user terms only, independently of the system's structure. Detailed usage scenarios, taking into account system details and special cases, will appear in the System book (<<s4>>)._  <<BM22>>
+endif::[]
+
+.High Level use cases diagram
+image::models/use_case.svg[scale=70%,align="center"]
+
+==== Customer Places an Order
+
+1. Customer browses the restaurant's menu items.
+2. Customer customizes their order with preferences and specifications.
+3. Customer selects delivery or pickup option.
+4. Customer adds items to the cart and proceeds to checkout.
+5. System calculates the total cost, applies promotions if applicable, and prompts for payment.
+6. Customer confirms the order and receives an order confirmation.
+
+==== Customer Tracks Order
+
+1. Customer logs in to their account.
+2. Customer views their active orders.
+3. Customer selects an active order to track its status.
+4. System displays real-time updates on the order's preparation and delivery progress.
+5. Customer receives notifications on order status changes.
+
+==== Restaurant Staff Manages Orders
+
+1. Restaurant staff logs in to the system.
+2. Staff accesses the order management dashboard.
+3. Staff views incoming orders and available delivery personnel.
+4. Staff assigns orders to available delivery personnel.
+5. System updates order status based on preparation and delivery progress.
+6. Staff marks orders as completed after successful delivery or pickup.
+
+==== Restaurant Staff Updates Menu
+
+1. Restaurant staff logs in to the system.
+2. Staff accesses the menu management section.
+3. Staff adds new menu items with descriptions and prices.
+4. Staff updates existing menu items' details or availability.
+5. System reflects menu changes in real-time for customers to view.
+
+==== Restaurant Staff Generates Reports
+
+1. Restaurant staff logs in to the system.
+2. Staff navigates to the reporting section.
+3. Staff selects the desired reporting parameters, such as date range or menu items.
+4. System generates comprehensive sales reports and analytics.
+5. Staff reviews and analyzes the generated reports to make informed business decisions.
+
+==== Delivery Personnel Operations
+
+1. Delivery personnel logs in to the delivery app.
+2. Personnel receives notifications for assigned deliveries.
+3. Personnel views delivery details, including customer address and order items.
+4. Personnel uses route optimization to navigate to the customer's location.
+5. System provides real-time tracking and status updates to both customer and restaurant staff.
+6. Delivery personnel marks the order as delivered upon successful completion.
+
+
+
+
+
