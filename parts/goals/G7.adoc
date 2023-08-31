@@ -14,8 +14,8 @@ endif::[]
 | Corporate Consumer | <<avery>> | Direct
 | Frequent Diner and Loyalty Member | <<carter>> | Direct
 
-.2+|The Phoenix Restaurant| The Phoenix Management | <<jordan>> | Direct
-| The Phoenix Staff| <<logan>> | Direct
+.2+|The Firebird Restaurant| The Firebird Management | <<jordan>> | Direct
+| The Firebird Staff| <<logan>> | Direct
 
 2+| Delivery Personel | <<charlie>> | Direct
 2+| System Administrator | <<robin>> | Direct
@@ -34,7 +34,7 @@ endif::[]
 
 ===== Customers
 
-The Customer stakeholder in the *{project-title}* app represents the end consumers, corporate customers, and frequent diners who directly engage with the system. They are the primary users of the app, utilizing it to explore The Phoenix's menu, place food orders for takeout or catering, and track delivery status. Customer satisfaction and loyalty are crucial to the success of the app, and their feedback and preferences play a vital role in shaping the app's features and offerings to provide an exceptional dining experience.
+The Customer stakeholder in the *{project-title}* app represents the end consumers, corporate customers, and frequent diners who directly engage with the system. They are the primary users of the app, utilizing it to explore The Firebird's menu, place food orders for takeout or catering, and track delivery status. Customer satisfaction and loyalty are crucial to the success of the app, and their feedback and preferences play a vital role in shaping the app's features and offerings to provide an exceptional dining experience.
 
 [#cameron,reftext=Cameron]
 Cameron (End Consumer):: Cameron is a 30-year-old urban dweller who works as a freelance graphic designer. They lead a fast-paced life, often juggling multiple projects and deadlines. As a food enthusiast, Cameron enjoys exploring different cuisines and seeking out new dining experiences. They value efficiency and convenience, preferring a food ordering app that offers a user-friendly interface for effortless browsing, quick ordering, and real-time delivery tracking. Cameron's loyalty is driven by the app's ability to provide personalized menu recommendations based on their taste preferences, ensuring a delightful and time-saving dining experience.
@@ -43,45 +43,45 @@ Cameron (End Consumer):: Cameron is a 30-year-old urban dweller who works as a f
 Avery (Corporate Consumer):: Avery is a 35-year-old event planner who works for a prominent marketing agency. They are responsible for organizing corporate events, conferences, and client meetings. Avery often arranges catering services for these events and values efficiency and reliability in their vendors. As a corporate customer using the *{project-title}* app, Avery seeks a seamless ordering process that allows them to place large catering orders with ease, access detailed invoices, and coordinate delivery logistics effortlessly. They appreciate a food ordering system that offers flexibility in customizing menu options and provides prompt and professional customer support to ensure successful and stress-free corporate events.
 
 [#carter,reftext=Carter]
-Carter (Frequent Diner and Loyalty Member):: Carter is a 40-year-old business consultant who frequently dines at The Phoenix. They have been a loyal customer for years and appreciate the restaurant's ambiance, quality of food, and exceptional service. As a frequent diner and loyalty member using the *{project-title}* app, Carter seeks a personalized experience that reflects their dining preferences and favorite menu items. They value exclusive promotions and rewards that come with their loyalty membership and expect the app to keep them informed about special offers and upcoming events at The Phoenix. Carter's loyalty is fostered through the app's ability to remember their previous orders, provide tailored recommendations, and recognize their status as a valued customer.
+Carter (Frequent Diner and Loyalty Member):: Carter is a 40-year-old business consultant who frequently dines at The Firebird. They have been a loyal customer for years and appreciate the restaurant's ambiance, quality of food, and exceptional service. As a frequent diner and loyalty member using the *{project-title}* app, Carter seeks a personalized experience that reflects their dining preferences and favorite menu items. They value exclusive promotions and rewards that come with their loyalty membership and expect the app to keep them informed about special offers and upcoming events at The Firebird. Carter's loyalty is fostered through the app's ability to remember their previous orders, provide tailored recommendations, and recognize their status as a valued customer.
 
 
-===== The Phoenix Restaurant
+===== The Firebird Restaurant
 
-The Phoenix is the primary entity responsible for the successful implementation and utilization of the *{project-title}* app. As the owner and operator of the restaurant, The Phoenix has a vested interest in leveraging the app to enhance its services and customer experiences. The app serves as a digital extension of the restaurant, enabling customers to interact directly with its menu, place orders, and track deliveries. By embracing technology through *{project-title}*, The Phoenix can streamline its food ordering process, cater to diverse customer preferences, and gather valuable insights through data analytics. Ultimately, the success of the app directly impacts The Phoenix's reputation, customer loyalty, and overall business growth, making it a key stakeholder in ensuring the app's effectiveness and aligning it with the restaurant's strategic objectives.
+The Firebird is the primary entity responsible for the successful implementation and utilization of the *{project-title}* app. As the owner and operator of the restaurant, The Firebird has a vested interest in leveraging the app to enhance its services and customer experiences. The app serves as a digital extension of the restaurant, enabling customers to interact directly with its menu, place orders, and track deliveries. By embracing technology through *{project-title}*, The Firebird can streamline its food ordering process, cater to diverse customer preferences, and gather valuable insights through data analytics. Ultimately, the success of the app directly impacts The Firebird's reputation, customer loyalty, and overall business growth, making it a key stakeholder in ensuring the app's effectiveness and aligning it with the restaurant's strategic objectives.
 
 [#jordan,reftext=Jordan]
-Jordan (The Phoenix Management):: Jordan is a dynamic and visionary entrepreneur who co-owns The Phoenix restaurant. With a passion for culinary innovation, they strive to create exceptional dining experiences for customers. As a member of The Phoenix Management, Jordan recognizes the potential of the *{project-title}* app to revolutionize the restaurant's operations, drive business growth, and stay ahead in the competitive market. They are eager to leverage the app's smart menu recommendations and personalized promotions to create a strong customer base and ensure The Phoenix remains a trendsetter in the ever-evolving food industry.
+Jordan (The Firebird Management):: Jordan is a dynamic and visionary entrepreneur who co-owns The Firebird restaurant. With a passion for culinary innovation, they strive to create exceptional dining experiences for customers. As a member of The Firebird Management, Jordan recognizes the potential of the *{project-title}* app to revolutionize the restaurant's operations, drive business growth, and stay ahead in the competitive market. They are eager to leverage the app's smart menu recommendations and personalized promotions to create a strong customer base and ensure The Firebird remains a trendsetter in the ever-evolving food industry.
 
 [#logan,reftext=Logan]
-Logan (The Phoenix Staff):: Logan is a dedicated and skilled member of The Phoenix's staff, responsible for handling various aspects of the *{project-title}* app. As a tech-savvy kitchen coordinator, they efficiently manage incoming orders, ensuring timely and accurate preparation. Additionally, Logan plays a key role in coordinating with the delivery team, providing real-time updates to customers using the app's order tracking feature. Their exceptional attention to detail and commitment to delivering outstanding customer service make Logan an indispensable part of The Phoenix team.
+Logan (The Firebird Staff):: Logan is a dedicated and skilled member of The Firebird's staff, responsible for handling various aspects of the *{project-title}* app. As a tech-savvy kitchen coordinator, they efficiently manage incoming orders, ensuring timely and accurate preparation. Additionally, Logan plays a key role in coordinating with the delivery team, providing real-time updates to customers using the app's order tracking feature. Their exceptional attention to detail and commitment to delivering outstanding customer service make Logan an indispensable part of The Firebird team.
 
 ===== Delivery Personnel
 
-They are the crucial link between The Phoenix restaurant and the end consumers. Their prompt and accurate delivery of orders directly impacts customer satisfaction and the overall success of the app. As the front-line representatives, they play a pivotal role in ensuring a seamless and delightful dining experience for customers. Their timely deliveries, professional conduct, and adherence to the app's real-time tracking updates contribute significantly to building trust and loyalty among customers, fostering a positive brand image for The Phoenix.
+They are the crucial link between The Firebird restaurant and the end consumers. Their prompt and accurate delivery of orders directly impacts customer satisfaction and the overall success of the app. As the front-line representatives, they play a pivotal role in ensuring a seamless and delightful dining experience for customers. Their timely deliveries, professional conduct, and adherence to the app's real-time tracking updates contribute significantly to building trust and loyalty among customers, fostering a positive brand image for The Firebird.
 
 [#charlie,reftext=Charlie]
-Charlie (Delivery Personnel):: Charlie is a reliable and dedicated delivery person working for The Phoenix restaurant. With a passion for providing excellent service, they take pride in ensuring that customers receive their orders accurately and on time. As a member of the delivery team, Charlie understands the importance of efficiently handling multiple deliveries, leveraging the *{project-title}* app's real-time tracking feature to optimize routes and minimize delivery times. They value clear communication and professional conduct, striving to leave a positive and lasting impression on every customer they serve.
+Charlie (Delivery Personnel):: Charlie is a reliable and dedicated delivery person working for The Firebird restaurant. With a passion for providing excellent service, they take pride in ensuring that customers receive their orders accurately and on time. As a member of the delivery team, Charlie understands the importance of efficiently handling multiple deliveries, leveraging the *{project-title}* app's real-time tracking feature to optimize routes and minimize delivery times. They value clear communication and professional conduct, striving to leave a positive and lasting impression on every customer they serve.
 
 ===== System Administrators
 
-They are responsible for the smooth operation and technical maintenance of the system. They play a critical role in ensuring that the app's server infrastructure, databases, and security measures are up-to-date and functioning optimally. As the key point of contact for any technical issues or updates, the system administrator's expertise directly impacts the app's reliability, data integrity, and overall performance. Their proactive approach to monitoring and addressing technical challenges ensures that the app remains accessible and responsive, providing a seamless and satisfying experience for both customers and The Phoenix restaurant.
+They are responsible for the smooth operation and technical maintenance of the system. They play a critical role in ensuring that the app's server infrastructure, databases, and security measures are up-to-date and functioning optimally. As the key point of contact for any technical issues or updates, the system administrator's expertise directly impacts the app's reliability, data integrity, and overall performance. Their proactive approach to monitoring and addressing technical challenges ensures that the app remains accessible and responsive, providing a seamless and satisfying experience for both customers and The Firebird restaurant.
 
 [#robin,reftext=Robin]
-Robin (System Administrator):: Robin is a skilled and detail-oriented system administrator responsible for overseeing the technical aspects of the *{project-title}* app. They possess a deep understanding of server infrastructure, databases, and security protocols. As a proactive problem solver, Robin ensures that the app's performance is consistently optimized, taking a proactive approach to monitor and address any technical issues that may arise. Their expertise and dedication to maintaining a reliable and secure system contribute significantly to the app's smooth functioning, ensuring a seamless experience for both customers and The Phoenix restaurant.
+Robin (System Administrator):: Robin is a skilled and detail-oriented system administrator responsible for overseeing the technical aspects of the *{project-title}* app. They possess a deep understanding of server infrastructure, databases, and security protocols. As a proactive problem solver, Robin ensures that the app's performance is consistently optimized, taking a proactive approach to monitor and address any technical issues that may arise. Their expertise and dedication to maintaining a reliable and secure system contribute significantly to the app's smooth functioning, ensuring a seamless experience for both customers and The Firebird restaurant.
 
 
 ==== Indirect Stakeholders
 
 - *Payment Gateways*: The companies providing the secure payment gateway services for the app are indirect stakeholders. Although customers interact with the payment gateways through the app, the relationship is indirect.
 
-- *Third-Party Delivery Services*: If The Phoenix partners with external delivery companies to handle certain deliveries, those companies become indirect stakeholders.
+- *Third-Party Delivery Services*: If The Firebird partners with external delivery companies to handle certain deliveries, those companies become indirect stakeholders.
 
 - *Regulatory Authorities*: Government agencies or regulatory bodies overseeing data privacy, food safety, and online transactions may be considered indirect stakeholders as the app's compliance with regulations affects their interests.
 
-- *Local Community*: The local community, including residents and businesses near The Phoenix, could be indirect stakeholders as the success of the app and restaurant's services may impact the community's perception and environment.
+- *Local Community*: The local community, including residents and businesses near The Firebird, could be indirect stakeholders as the success of the app and restaurant's services may impact the community's perception and environment.
 
-- *Investors or Shareholders*: If The Phoenix is a publicly traded company or has investors, they may be considered indirect stakeholders as the success of the app can affect the company's financial performance.
+- *Investors or Shareholders*: If The Firebird is a publicly traded company or has investors, they may be considered indirect stakeholders as the success of the app can affect the company's financial performance.
 
 ==== Requirement Sources
 
@@ -92,7 +92,7 @@ Robin (System Administrator):: Robin is a skilled and detail-oriented system adm
 
 - *Competitor Analysis*: Analyzing competitor apps provides insights into industry best practices, user expectations, and potential features that can make "ATCO Eats" competitive.
 
-- *Business Objectives and Strategy*: Aligning the app's requirements with The Phoenix's overall business objectives and strategy ensures that the app contributes to the restaurant's long-term vision and success.
+- *Business Objectives and Strategy*: Aligning the app's requirements with The Firebird's overall business objectives and strategy ensures that the app contributes to the restaurant's long-term vision and success.
 
 - *Technology and Development Constraints*: Understanding the technological capabilities and constraints can influence the choice of development platforms, frameworks, and features that can be feasibly implemented.
 
